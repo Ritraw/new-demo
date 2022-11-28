@@ -1,0 +1,33 @@
+.content {
+    position: sticky;
+    background-color: #ffffff;
+    color: #131022;
+    padding: 4px 0px;
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0 115px;
+    padding: 5px 16px 0px 0px;
+}
+
+.logo a {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.dropbtn {
+    color: #3e4265;
+    padding: 22.5px 14px;
+    font-weight: 500;
+    font-size: 17.5px;
+    cursor: pointer;
+    display: flex;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+}

@@ -1,0 +1,55 @@
+.feat{
+    font-size: px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.card {
+    width: 315px;
+    height: 300px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+}
+
+.f-icon{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    font-size: 1.9rem;
+    color: #6f5de7;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 7px;
+    background-color: #f1f5fd;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 1.2rem auto;
+
+}
+
+.details{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.card-head{
+    text-align: left;
+    font-size: 15px;
+    color: black;
+}
+
+p {
+    text-align: left;
+    color: #585C7B;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+

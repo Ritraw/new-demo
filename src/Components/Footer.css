@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.title h1{
+    font-size: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+.title p{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.image{
+    display: grid;
+    position: relative;
+    margin: 45px;
+    padding: 40px;
+   
+}
+.one{
+    /* border: 2px solid blue; */
+    width: 53%;
+    height: 45vh;
+    /* padding: auto; */
+}
+.one img{
+    position: absolute;
+    border-radius: 12px;
+    width: 59vh;
+    height: 37vh;
+    
+  
+}
+.one h2{
+    margin-top: 36%;
+    margin-left: 11%;
+}
+
+.two{
+    width: 53%;
+    height: 45vh;
+    margin-left: 34%;
+    margin-top: -320px;
+}
+.two img{
+ 
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+.two h2{
+    margin-left: 23%;
+}
+
+.three{
+    width: 53%;
+    height: 45vh;
+    margin-left: 68%;
+    margin-top: -320px;
+}
+.three img{
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+
+.three h2{
+    margin-left: 23%;
+}
+
+.four{
+    width: 53%;
+    height: 45vh;
+}
+
+.four img
+{   border-radius: 12px;
+    width: 59vh;
+    height: 37vh;
+   
+}
+
+.four h2{
+    margin-left: 13%;
+}
+
+.five{
+    width: 53%;
+    height: 45vh;
+    margin-left: 34%;
+    margin-top: -320px;
+}
+.five img{
+   
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+
+.five h2{
+    margin-left: 23%;
+}
+
+.six{
+    width: 53%;
+    height: 45vh;
+    margin-left: 68%;
+    margin-top: -320px;
+}
+.six img{
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+
+.six h2{
+    margin-left: 14%;
+}
+
+.seven{
+    width: 53%;
+    height: 45vh;
+}
+
+.seven img
+{   border-radius: 12px;
+    width: 59vh;
+    height: 37vh;
+   
+}
+
+.seven h2{
+    margin-left: 20%;
+}
+
+.eight{
+    width: 53%;
+    height: 45vh;
+    margin-left: 34%;
+    margin-top: -320px;
+}
+.eight img{
+    
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+
+.eight h2{
+    margin-left: 13%;
+}
+
+.nine{
+    width: 53%;
+    height: 45vh;
+    margin-left: 68%;
+    margin-top: -320px;
+}
+.nine img{
+    border-radius: 10px;
+    width: 59vh;
+    height: 37vh;
+}
+.nine h2{
+    margin-left: 15%;
+}
