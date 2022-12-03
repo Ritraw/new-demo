@@ -17,7 +17,7 @@ function Footer2() {
       <div className='feat'>
         <h2>More Silicon Features</h2>
       </div>
-      </div>
+    </div>
     
     
     <div className='card'>

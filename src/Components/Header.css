@@ -1,20 +1,29 @@
-.content {
+.nav-content {
     position: sticky;
     background-color: #ffffff;
     color: #131022;
     padding: 4px 0px;
     display: flex;
-    
 }
 
-.logo {
+.nav-logo {
     display: flex;
     align-items: center;
+
     margin: 0px 20px 0 115px;
     padding: 5px 16px 0px 0px;
 }
 
-.logo a {
+.nav-logo img {
+    margin-right: 7px;
+}
+
+.dropdown ul img {
+    width: 150px;
+    height: 400px;
+}
+
+.nav-logo span {
     font-size: 22px;
     font-weight: 700;
 }
@@ -24,10 +33,94 @@
     padding: 22.5px 14px;
     font-weight: 500;
     font-size: 17.5px;
+    border: none;
     cursor: pointer;
-    display: flex;
 }
+
+.dropbtn img {
+    width: 10px;
+    height: 10px;
+    color: #3e4265;
+    padding-left: 4px;
+}
+
+.dropbtn img:hover {
+    color: #6366f1 !important;
+}
+
 .dropdown {
     position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content {
+    padding: 5px;
+}
+
+.dropdown-content ul li {
+    color: #3e4265;
+    padding: 12px 1px;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
     display: flex;
+    width: min-content
+}
+
+.dropdown:hover .dropbtn {
+    color: #6366f1
+}
+
+.dropdown:hover .dd-img {
+    color: #6366f1
+}
+
+.dropdown:hover .dropbtn .d-img {
+    color: white;
+}
+
+.nav-light-dark {
+    margin-top: 20px;
+    margin-left: 30rem;
+}
+
+.nav-light-dark img {
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.cart-btn {
+    border: none;
+    background-color: #6366f1;
+    color: #f9f9f9;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-logo {
+    padding-right: 5px;
+    font-weight: 400;
 }
